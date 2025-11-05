@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flashcard Quiz App</title>
+  <!-- Google Fonts: Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Flashcard Quiz App</h1>
+  <p style="color: #fff; font-size: 1.1em; text-align:center; margin-bottom: 6px; text-shadow: 1px 2px 10px #7f8be9cc;">
+    Click <strong>Flip</strong> to view the answer. Use <strong>Delete</strong> to remove a card.
+  </p>
+  <div id="flashcards"></div>
+  <form id="flashcard-form" autocomplete="off">
+    <input type="text" id="question" placeholder="Question" required>
+    <input type="text" id="answer" placeholder="Answer" required>
+    <button type="submit">Add Flashcard</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
